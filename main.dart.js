@@ -23878,7 +23878,7 @@ case 3:q=$.azL()
 A.b(q.d$,"options").a$="http://54.158.25.44:8082/api"
 q=A.b(q.d$,"options")
 p=A.ca(J.aa($.aHc.be().a,"token"))
-q.sS_(0,A.ar(["x-token",p==null?"":p],t.N,t.z))
+q.sS_(0,A.ar(["x-token",p==null?"":p,"Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET,HEAD,OPTIONS,POST,PUT","Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept, x-client-key, x-client-token, x-client-secret, Authorization"],t.N,t.z))
 q=$.aNS()
 q=q==null?null:q.getAttribute("href")
 if(q==null)A.C(A.cr("Please add a <base> element to your index.html"))
