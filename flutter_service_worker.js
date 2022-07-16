@@ -8,7 +8,7 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"main.dart.js": "6e8116e3350f2480336faf0891e6fd92",
+"main.dart.js": "ad5f4fbacd7c1b9454a98ba844b88628",
 "version.json": "53fd664a4ca73a268707debea9350f38",
 "assets/assets/images/frix.png": "be5c55c7653b8d7fd878f6c59770df09",
 "assets/assets/images/login_bottom.png": "b473d9b1b30607e274348f114273a094",
@@ -47,8 +47,8 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "e4eb1883cb8a224969a08a76448f0fce",
-"/": "e4eb1883cb8a224969a08a76448f0fce",
+"index.html": "c68abac0f2469838fec031fd7c67e6d8",
+"/": "c68abac0f2469838fec031fd7c67e6d8",
 "manifest.json": "61fc2e5178e38e9cb299fa67b78c1bfb"
 };
 

@@ -23857,7 +23857,7 @@ return A.O(A.a9S(A.aTD()),$async$a2W)
 case 2:s=3
 return A.O(A.adR(),$async$a2W)
 case 3:q=$.azI()
-A.b(q.d$,"options").a$="http://54.158.25.44:8082/api"
+A.b(q.d$,"options").a$="http://localhost:8082/api"
 q=A.b(q.d$,"options")
 p=A.cS(J.a4($.aH7.be().a,"token"))
 q.sRR(0,A.ax(["x-token",p==null?"":p],t.N,t.z))
