@@ -81509,14 +81509,16 @@ else return new A.hr(q)
 else return new A.iH(q)},
 $S:62}
 A.a6S.prototype={
-$2(a,b){var s,r,q=null
+$2(a,b){var s,r,q,p,o=null
 a.toString
 s=A.c4(a,!0,t.d)
 r=s.c
 A.c4(a,!1,t.Gj).kr("/dashboard/user-update/")
-if(s.b===B.bH)if((r==null?q:r.d)===1)return new A.zy(q)
-else return new A.hr(q)
-else return new A.iH(q)},
+if(s.b===B.bH){q=r==null
+if((q?o:r.d)!==1){p=(q?o:r.d)===3
+q=p}else q=!0
+if(q)return new A.zy(o)
+else return new A.hr(o)}else return new A.iH(o)},
 $S:62}
 A.UT.prototype={
 F(a,b){var s=this,r=null,q=s.d,p=s.f
@@ -82144,7 +82146,7 @@ return $.fv().gas().ja("/dashboard",s,s)},
 $S:0}
 A.hr.prototype={
 F(a,b){var s=null
-return new A.c1(new A.aH(20,20,20,20),A.ai(A.lW(A.a([A.ao("Dashboard View",s,s,s,$.p0(),s,s),A.ai(s,10,s),new A.fn("Sales Statistics",A.ao("Hola Mundo",s,s,s,s,s,s),s,s)],t.p),s,new A.fY(s),!0),200,s),s)}}
+return new A.c1(new A.aH(20,20,20,20),A.ai(A.lW(A.a([A.ao("Dashboard",s,s,s,$.p0(),s,s),A.ai(s,10,s),new A.fn("Informaci\xf3n general",A.ao("Inicio",s,s,s,s,s,s),s,s)],t.p),s,new A.fY(s),!0),200,s),s)}}
 A.ON.prototype={
 F(a,b){var s=null,r=t.p
 return new A.c1(new A.aH(15,15,15,15),A.lW(A.a([A.ao("Icons",s,s,s,$.p0(),s,s),A.ai(s,10,s),new A.VS(B.at,B.aaF,A.a([new A.fn("ac_unit_outlined",A.eE(A.cQ(B.Nl,s,s),s,s),170,s),new A.fn("access_alarm_outlined",A.eE(A.cQ(B.Nm,s,s),s,s),170,s),new A.fn("access_time_rounded",A.eE(A.cQ(B.Nv,s,s),s,s),170,s),new A.fn("all_inbox_outlined",A.eE(A.cQ(B.Nn,s,s),s,s),170,s),new A.fn("desktop_mac_sharp",A.eE(A.cQ(B.Nk,s,s),s,s),170,s),new A.fn("not_listed_location",A.eE(A.cQ(B.Nh,s,s),s,s),170,s)],r),s)],r),s,new A.fY(s),!1),s)}}
